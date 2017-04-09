@@ -1,6 +1,6 @@
 // Version 1.0
 function primeFactor(num) {
-  for (let i = 2; i < num;i += 1) {
+  for (let i = 2; i < num; i += 1) {
     while (num % i === 0) {
       num = num / i;
     }
