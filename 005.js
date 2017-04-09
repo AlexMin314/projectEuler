@@ -1,11 +1,14 @@
 // Version 2.0
+
 function smallestMultiple(num) {
   let arr = [];
+  let smallestMultipleArr = [];
+
   for (let i = 2; i <= num; i += 1) {
     arr.push(i); // arr.length returns 19
   }
+
   for (let k = 0; k < num - 1; k += 1) {
-    let smallestMultipleArr = [];
     let arrNum = arr[k];
     for (let j = 0; j < num; j += 1) {
       if (arr[j] % arrNum === 0) {
@@ -14,9 +17,7 @@ function smallestMultiple(num) {
     }
     smallestMultipleArr.push(arrNum);
   }
-  let answer = smallestMultipleArr.reduce(function(a, b) {
-    return a * b;
-  });
+  let answer = smallestMultipleArr.reduce(function(a, b) { return a * b; });
   console.log(answer);
 }
 
