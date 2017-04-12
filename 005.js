@@ -26,7 +26,7 @@ smallestMultiple(20); // returns 232792560 [Finished in 0.086s]
 
 
 
-/* Version 1.0 - it took so long time..
+/* Version 1.0 - it took so long time....
 function smallestMultiple(num) {
   let checker = false;
   for (let i = num;; i += 1) {
