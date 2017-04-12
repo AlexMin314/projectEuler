@@ -18,7 +18,8 @@ function smallestMultiple(num) {
     smallestMultipleArr.push(arrNum);
   }
   let answer = smallestMultipleArr.reduce(function(a, b) { return a * b; });
-  console.log(answer);
+  return answer;
+  //console.log(answer);
 }
 
 smallestMultiple(20); // returns 232792560 [Finished in 0.086s]
