@@ -1,3 +1,4 @@
+// version 1.0
 var oneToEleven = [0, 3, 3, 5, 4, 4, 3, 5, 5, 4, 3, 6, 6, 8, 8, 7, 7, 9, 8, 8];
 var tenDigits = [0, 0, 6, 6, 5, 5, 5, 7, 6, 6];
 var hundredAnd = 10;
